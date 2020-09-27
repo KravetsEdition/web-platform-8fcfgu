@@ -1,0 +1,611 @@
+body{
+    padding: 0;
+	margin: 0;
+    background-color: #ccc;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+	font-size: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+  text-decoration:  none;
+    color: grey;
+}
+
+a:visited {
+   color: grey;/*меняем цвет посещенных ссылок*/
+}
+
+a:visited {
+   color: grey;/*меняем цвет посещенных ссылок*/
+}
+
+p {
+	margin: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+ul, li {
+    list-style-type:none;
+}
+
+
+/* Главная страница */
+
+/* голова страницы */
+.head{
+    display: flex;
+	align-items: center;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50.7em;
+}
+
+.head ul{
+    display: flex;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.head ul li{
+    margin-left: 50px;
+    color: grey;
+    font-weight:bold;
+    font-style:normal;
+}
+
+#k1{ /* костыль с растоянием от 2 колонки! */
+    margin-left: 20px;
+}
+
+.head h1{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 35px;
+    font-weight:800;
+    color: white;
+}
+
+#box_logo {
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    align-content: center;
+	width: 50px;
+	height: 55px;
+	background: black;
+    color: white;
+    font-weight: 900;
+}
+
+#black{
+    color: #1d1d1d;
+}
+
+/* Сам контент страницы */
+
+.content_text{
+    margin-top: 15%;
+    width: auto;
+    height: auto;
+}
+
+.content p{
+    text-align: center;
+    font-size: 44px;
+    text-transform:none;
+    margin-top: 0;
+}
+
+#h_s_text{
+    font-size: 16px;
+    color: grey;
+}
+
+a.button1 {
+    /* поместить по центру */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* ------------------- */
+    margin-top: 30px;
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+} 
+
+a.button1:hover {
+    background: #e0e0e0; 
+}
+
+a.button1:active {
+    background: white; 
+}
+
+/* Страница About US */
+
+.content_about{
+    margin-top: 0px;
+    background: url(https://s8.hostingkartinok.com/uploads/images/2020/09/d74a90680b31f1535e50dc699455c89d.png) no-repeat center top / cover;
+	padding-top: 50px;
+	color: #fff;
+    height: 100%;
+    padding-bottom: 20%;
+}
+
+/*.white_line{
+    margin-top: -200px;
+    width: 10px;
+	height: 1000px;
+	background: white;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.c_2011{
+    margin: 80px 0;
+    text-align: center;
+    margin-right: 20%;
+}
+
+.c_2011 h5{
+    font-size: 48px;    
+}
+
+.c_2011 p{
+    margin-top: 20px;
+    display: flex;
+    text-align:left;
+    padding-left: 30%;
+    font-size: 15px;
+    width: 55%;
+}
+
+.c_2012{
+    margin-top: -90px;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.c_2012 h5{
+    font-size: 48px;    
+}
+
+.c_2012 p{
+    margin-top: 20px;
+    text-align:left;
+    padding-left: 46%;
+    font-size: 15px;
+    width: 70%;
+}
+
+.c_2013{
+    margin-top: 90px;
+    text-align: center;
+    margin-right: 20%;
+}
+
+.c_2013 h5{
+    font-size: 48px;    
+}
+
+.c_2013 p{
+    margin-top: 20px;
+    text-align:left;
+    padding-left: 30%;
+    font-size: 15px;
+    width: 55%;
+}
+
+.c_2014{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 20%;
+    margin-bottom: 100px;
+}
+
+.c_2014 h5{
+    font-size: 48px;    
+}
+
+.c_2014 p{
+    margin-top: 20px;
+    text-align:left;
+    padding-left: 46%;
+    font-size: 15px;
+    width: 70%;
+}
+
+/* Page-Team */
+
+.content_team{
+    width: auto;
+    height: auto;
+}
+
+.content_team_text{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#ctt_h{
+    color: black;
+    font-size: 34px;
+    font-style: normal;
+}
+
+.content_team_text p{
+    font-size: 16px;
+    color: grey;
+    font-style: italic;
+}
+
+.photo_team{
+    width: auto;
+    height: auto;
+}
+
+.center_team{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.center_team img{
+    margin-bottom: 0px;
+    width: 125px;
+    height: 125px;
+}
+
+#h_ct{
+    font-size: 24px;
+    color: black;
+}
+
+#p_ct{
+    font-size: 13px;
+    color: grey;
+}
+
+.social_c img{
+    width: 20px;
+    height: auto;
+    margin-left: 28px;
+}
+
+.social_c{
+    margin-top:10px;
+    display: flex;
+    position: absolute;
+    left: 46.2%;
+}
+
+.social_c a:hover{
+    margin-top: 5px;
+    transition: all 1s;
+}
+
+.social_l a:hover{
+    margin-top: 5px;
+    transition: all 1s;
+}
+
+.social_r a:hover{
+    margin-top: 5px;
+    transition: all 1s;
+}
+
+.left_right_team{
+    display: flex;
+}
+
+.left_block img{
+    width: 125px;
+    height: 125px;
+}
+
+.right_block img{
+    width: 125px;
+    height: 125px;
+}
+
+.left_block{    
+    margin-top: -100px;
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 300px;
+}
+
+.social_l{
+    text-align: center;
+    display: flex;
+    width: 20px;
+    height: auto;
+    margin-left: 17%;
+}
+
+.social_l img{
+    margin-top: 10px;
+    width: 20px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.right_block{    
+    margin-top: -100px;
+    align-content: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: auto;
+}
+
+.social_r{
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    width: 20px;
+    height: auto;
+    margin-left: 12%;
+}
+
+.social_r img{
+    width: 20px;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+
+/*Service*/
+
+.content_service{
+    margin-top: 2px;
+    background: url("https://s8.hostingkartinok.com/uploads/images/2020/09/29d25fd7b31172b16d52b89bd1a6e579.png") no-repeat center top / cover;
+	padding-top: 50px;
+	color: #fff;
+    height: 100%;
+    padding-bottom: 10%;
+}
+
+.center_message{
+    text-align: center;
+    margin-top: 80px;
+}
+.center_message p{
+    margin-top: 40px;
+    color: white;
+    font-size: 34px;
+}
+
+.center_message p1{
+    margin-top: 40px;
+    color: #777777;
+    font-size: 16px;
+}
+
+.l_center_left_right{
+    display: flex;
+    text-align: center;
+    margin: 100px auto;
+    
+}
+
+
+
+.l_right img{
+    padding: 20px 20px 20px 20px;
+  width: 100px;
+  height: 90px;
+  border: 2px solid white;
+  border-radius: 20%;
+  margin: auto;
+}
+
+.l_right{
+    margin-left: auto;
+    width: 270px;
+    height: 200px;
+}
+
+#l_head_text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+#l_text{
+    font-size: 18px;
+    color: #383838;
+}
+
+.l_center{
+    margin-left: 8%;
+    margin-right: 9%;
+    width: 270px;
+    height: 200px;
+}
+
+.l_center img{
+    padding: 20px 20px 20px 20px;
+    position: relative;
+  width: 100px;
+  height: 90px;
+  border: 2px solid white;
+  border-radius: 20%;
+  margin: auto;
+}
+
+.l_left{
+    margin-right: auto;
+    width: 270px;
+    height: 200px;
+}
+
+.l_left img{
+    padding: 20px 20px 20px 20px;
+    position: relative;
+  width: 100px;
+  height: 90px;
+  border: 2px solid white;
+  border-radius: 20%;
+  margin: auto;
+}
+
+a.button2 {
+    /* поместить по центру */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* ------------------- */
+    display: inline-block;
+    background-color: white;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+} 
+
+a.button2:active {
+    background: black; 
+}
+
+.content_service_button{
+    margin-top: 12%;
+}
+
+.content_service_button p{
+    color: black;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+/* 404 */
+.content_404{
+    text-align: center;
+    margin-top: 20%;
+}
+
+/* Contact */
+
+.contact_head{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact_head p{
+    font-size: 34px;
+    color: black;
+}
+
+.contact_head p1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: grey;
+    font-style:oblique;
+}
+
+.contact_img{
+    margin: 50px 0;
+    width: 100%;
+    display:flex;
+}
+
+.contact_img p{
+    font-size: 12px;
+    color: grey;
+}
+
+
+.contact_left{
+    text-align: center;
+    margin-left: auto;
+}
+
+.contact_centre{
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+.contact_righ{
+    text-align: center;
+    margin-top: 8px;
+    margin-right: auto;
+}
+
+.contact_input_text{
+    
+    margin: 50px auto;
+    width: 60%;
+    height: 500px;
+    text-align: center;
+}
+
+.contact_input_text input {
+    transition: all 0.5s;
+    padding: 10px 10px 10px 10px;
+    margin-top: 40px;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+}
+
+
+.contact_input_text textarea {
+    padding: 10px 10px 10px 10px;
+    margin-top: 40px;
+    text-align: left;
+    width: 70%;
+    height: 20%;
+    resize: none; /* Запрещаем изменять размер */
+}
+
+#button_style{
+    color: white;
+    background-color: black;
+    font-size: 17px;
+}
+
+#button_style:hover {
+    margin: 20px 20px;
+    cursor: pointer;
+
+}
